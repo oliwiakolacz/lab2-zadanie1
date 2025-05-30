@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab2_zadanie1.MainPage">
+             
+             <VerticalStackLayout Padding="30">
+                <Label Text="Dzielna:" />
+                <Entry x:Name="DividendEntry" Keyboard="Numeric" />
+                <Label Text="Dzielnik:" />
+                <Entry x:Name="DivisorEntry" Keyboard="Numeric" />
+                <Button Text="Podziel" Clicked="OnDivideClicked" />
+                <Label Text="Wynik:" />
+                <Entry x:Name="ResultEntry" IsReadOnly="True" />
+            </VerticalStackLayout>
+
+</ContentPage>
